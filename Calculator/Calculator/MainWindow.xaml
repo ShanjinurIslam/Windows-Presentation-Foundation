@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="225" Width="400">
-            <TextBox Text="Write Your Name"></TextBox>
-            <Button Content="Sign Up"/>
-
-        </StackPanel>
-
+        <StackPanel>
+            <Label Content="Welcome to Simple Calculator"/>
+            <TextBox x:Name="input1"/>
+            <TextBox x:Name="input2"/>
+            <Button Content="Submit"/>
+        </StackPanel>   
     </Grid>
 </Window>
